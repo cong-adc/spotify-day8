@@ -1,0 +1,80 @@
+
+/* font family */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Itim", cursive;
+  }
+
+
+*::selection {
+  color: #38bdf8 !important;
+}
+
+.header {
+  background-color: #111827;
+  height: 100px;
+}
+
+.header-item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: calc(100vh - 200px);
+  /* 100px - header - 100px footer */
+}
+
+.container-left {
+  background-color: #334155;
+}
+
+.container-left h4 {
+  color: #38bdf8;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.container-left .title {
+  color: #a3a3a3;
+  margin-left: 10px;
+}
+
+.container-left .author {
+  margin-top: 20px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+.container-left .preview {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  margin: 0 auto;
+}
+
+.container-right table {
+  width: 100%;
+  border-collapse: collapse;
+} 
+
+.container-right tr td {
+  text-align: center;
+}
